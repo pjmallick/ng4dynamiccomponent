@@ -15,6 +15,7 @@ import { HitcounterComponent } from './hitcounter/hitcounter.component';
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [ HitcounterComponent ],
 })
 export class AppModule { }
